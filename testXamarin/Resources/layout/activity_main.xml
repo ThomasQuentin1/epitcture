@@ -1,0 +1,36 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Epicture"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30sp"
+        android:id="@+id/textView1" />
+    <Button
+        android:text="Se connecter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/connection"
+        android:backgroundTint="@android:color/background_dark"
+        android:keyboardNavigationCluster="true"
+        android:background="#ffeeebeb"
+        android:textColor="#ffeddddd"
+        android:layout_marginTop="380sp"
+    />
+    <Button
+        android:text="S'incrire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inscrire"
+        android:layout_marginTop="15sp"
+    />
+
+</LinearLayout>
