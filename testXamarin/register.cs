@@ -18,12 +18,24 @@ namespace testXamarin
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            TextView txt;
-
             SetContentView(Resource.Layout.register);
-            FindViewById<Button>(Resource.Id.register).Click += (e, o) =>
+
+
+            EditText tmp;
+            string password;
+            string userName;
+            FindViewById<Button>(Resource.Id.registerBtn).Click += (e, o) =>
             {
-               // txt = FindViewById<TextView>(Resource.Id.)
+                tmp = FindViewById<EditText>(Resource.Id.TxtPassword);
+                password = tmp.Text;
+                tmp = FindViewById<EditText>(Resource.Id.TxtUserName);
+                userName = tmp.Text;
+                if (password != null && userName != null) {
+                    Console.WriteLine(password);
+                    Console.WriteLine(userName);
+
+                    //todo REGISTER API IMGUR 
+                }
             };
         }
     }
