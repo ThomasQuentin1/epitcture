@@ -22,6 +22,12 @@ namespace testXamarin
                 Intent nextPage = new Intent(this, typeof(connection));
                 StartActivity(nextPage);
             };
+
+            FindViewById<Button>(Resource.Id.register).Click += (e, o) =>
+            {
+                Intent nextPage = new Intent(this, typeof(register));
+                StartActivity(nextPage);
+            };
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {

@@ -23,13 +23,13 @@
         android:keyboardNavigationCluster="true"
         android:background="#ffeeebeb"
         android:textColor="#ffeddddd"
-        android:layout_marginTop="380sp"
+        android:layout_marginTop="300sp"
     />
     <Button
         android:text="S'incrire"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/inscrire"
+        android:id="@+id/register"
         android:layout_marginTop="15sp"
     />
 

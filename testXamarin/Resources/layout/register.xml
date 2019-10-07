@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
- <TextView
-        android:text="connecte toi fdp"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Inscrit toi fdp"
         android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_marginBottom="60sp"
@@ -29,7 +32,7 @@
         android:layout_marginBottom="60sp"
         android:id="@+id/editText2" />
     <Button
-        android:text="Connection"
+        android:text="Inscription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         
