@@ -18,8 +18,13 @@ namespace testXamarin
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            TextView txt;
 
             SetContentView(Resource.Layout.register);
+            FindViewById<Button>(Resource.Id.register).Click += (e, o) =>
+            {
+               // txt = FindViewById<TextView>(Resource.Id.)
+            };
         }
     }
 }
