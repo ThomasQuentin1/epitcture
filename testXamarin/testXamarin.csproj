@@ -60,6 +60,7 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="register.cs" />
     <Compile Include="connection.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -110,6 +111,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\connection.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\register.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

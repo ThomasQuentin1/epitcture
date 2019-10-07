@@ -1538,11 +1538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\blbl\\source\\repos\\testXamarin\\testXamarin\\testXamarin.csproj",
+      "projectUniqueName": "C:\\Users\\blbl\\Desktop\\github\\epitcture\\testXamarin\\testXamarin.csproj",
       "projectName": "testXamarin",
-      "projectPath": "C:\\Users\\blbl\\source\\repos\\testXamarin\\testXamarin\\testXamarin.csproj",
+      "projectPath": "C:\\Users\\blbl\\Desktop\\github\\epitcture\\testXamarin\\testXamarin.csproj",
       "packagesPath": "C:\\Users\\blbl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\blbl\\source\\repos\\testXamarin\\testXamarin\\obj\\",
+      "outputPath": "C:\\Users\\blbl\\Desktop\\github\\epitcture\\testXamarin\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
